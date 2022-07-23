@@ -41,6 +41,27 @@ function App() {
           <ContactForm></ContactForm>
         )}
       </main>
+      <footer>
+        
+        <div class="footer-content">
+        <div class="flex-links">
+          <address>
+            <a href="https://github.com/xdatalinq" target="_blank">
+              GitHub
+            </a>
+          </address>
+          <address>
+            <a href="https://linkedin.com" target="_blank">
+              LinkedIn
+            </a>
+          </address>
+          <address>
+            <a href="https://stackoverflow.com">Stack Overflow</a>
+          </address>
+        </div>
+          <p>&copy; 2022 xDatalinq</p>
+        </div>
+      </footer>
     </div>
   );
 }
