@@ -34,7 +34,7 @@ header {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  /* background-image: url("../images/hero_texture.jpg"); */
+  /* background-image: url("./src/assets/images/hero_texture.jpg"); */
   background-size: cover;
   background-attachment: fixed;
   background-position: 100%;
@@ -92,13 +92,15 @@ header nav ul li a {
 header nav ul li a:hover {
   color: var(--primary-color);
 }
+
+
 /* NAV STYLES END */
 
 
 
 /* HERO STYLES START */
 .hero {
-  background-image: url('../images/hero_texture.jpg');
+  background-image: url('./assets/images/hero_texture.jpg');
   background-size: cover;
   display: flex;
   justify-content: right;
