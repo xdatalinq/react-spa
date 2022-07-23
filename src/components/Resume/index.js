@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Portfolio(props) {
+function Resume(props) {
   const { currentCategory } = props;
   return (
     <section>
-      <p>test text</p>  
+      <p>Resume text</p>  
     </section>
   );
 }
 
-export default Portfolio;
+export default Resume;

@@ -7,12 +7,7 @@ import Resume from './components/Resume';
 
 function App() {
   const [categories] = useState([ 
-    {
-      name: 'about',
-      description: 'About me, relevant personal information',
-    },
     { name: 'portfolio', description: 'Portfolio of applications and class work' },
-    { name: 'contact', description: 'Contact information' },
     { name: 'resume', description: 'My resume and professional information' },
   ]);
 
@@ -32,8 +27,8 @@ function App() {
       <main>
         {!contactSelected ? (
           <>
-            <Portfolio currentCategory={currentCategory}></Portfolio>
-            <About></About>
+            <About currentCategory={currentCategory}></About>
+          
           </>
         ) : (
             <ContactForm></ContactForm>
