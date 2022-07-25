@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
-Live: <br><br> https://xdatalinq.github.io/react-spa/
-Repo: <br><br> https://github.com/xdatalinq/react-spa/
+Live: https://xdatalinq.github.io/react-spa/ <br><br> 
+Repo: https://github.com/xdatalinq/react-spa/ <br><br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
