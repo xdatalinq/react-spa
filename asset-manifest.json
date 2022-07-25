@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-spa/static/css/main.c0904214.css",
+    "main.js": "/react-spa/static/js/main.030dca8f.js",
+    "static/js/787.14fe134e.chunk.js": "/react-spa/static/js/787.14fe134e.chunk.js",
+    "static/media/runbuddy.png": "/react-spa/static/media/runbuddy.ed9712fa733aa3773f9c.png",
+    "static/media/hero_texture.jpg": "/react-spa/static/media/hero_texture.384e3f6130ddb6c5d13b.jpg",
+    "static/media/secondarybox3.jpg": "/react-spa/static/media/secondarybox3.02d5448eb108ad5a8252.jpg",
+    "static/media/secondarybox4.jpg": "/react-spa/static/media/secondarybox4.e15dd1976b77501377b3.jpg",
+    "static/media/secondarybox5.jpg": "/react-spa/static/media/secondarybox5.15c49211d2277b81eadb.jpg",
+    "static/media/secondarybox1.jpg": "/react-spa/static/media/secondarybox1.7316a1122fb975a65f85.jpg",
+    "static/media/secondarybox2.jpg": "/react-spa/static/media/secondarybox2.d3a1a63c4d6a16f33a33.jpg",
+    "index.html": "/react-spa/index.html",
+    "main.c0904214.css.map": "/react-spa/static/css/main.c0904214.css.map",
+    "main.030dca8f.js.map": "/react-spa/static/js/main.030dca8f.js.map",
+    "787.14fe134e.chunk.js.map": "/react-spa/static/js/787.14fe134e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0904214.css",
+    "static/js/main.030dca8f.js"
+  ]
+}
