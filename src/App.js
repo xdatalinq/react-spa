@@ -16,7 +16,26 @@ function App() {
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
-  const [contactSelected, setContactSelected] = useState(false);
+  const [contactSelected, setContactSelected] = useState("about");
+
+  function displayPage() {
+    switch (contactSelected) {
+      case "contact":
+        return <ContactForm />;
+        break;
+      case "portfolio":
+        return <Portfolio />;
+        break;
+      case "resume":
+        return <Resume />;
+        break;
+
+      default:
+        return <About />;
+        break;
+    }
+  }
+
 
   return (
     <div>
@@ -32,33 +51,24 @@ function App() {
           <h2>Building my future portfolio!</h2>
         </div>
       </section>
-      <main>
-        {!contactSelected ? (
-          <>
-            <About currentCategory={currentCategory}></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
-      </main>
+      <main>{displayPage()}</main>
       <footer>
-        
         <div class="footer-content">
-        <div class="flex-links">
-          <address>
-            <a href="https://github.com/xdatalinq" target="_blank">
-              GitHub
-            </a>
-          </address>
-          <address>
-            <a href="https://linkedin.com" target="_blank">
-              LinkedIn
-            </a>
-          </address>
-          <address>
-            <a href="https://stackoverflow.com">Stack Overflow</a>
-          </address>
-        </div>
+          <div class="flex-links">
+            <address>
+              <a href="https://github.com/xdatalinq" target="_blank">
+                GitHub
+              </a>
+            </address>
+            <address>
+              <a href="https://linkedin.com" target="_blank">
+                LinkedIn
+              </a>
+            </address>
+            <address>
+              <a href="https://stackoverflow.com">Stack Overflow</a>
+            </address>
+          </div>
           <p>&copy; 2022 xDatalinq</p>
         </div>
       </footer>

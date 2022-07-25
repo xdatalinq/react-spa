@@ -23,17 +23,22 @@ function Nav(props) {
         <ul className="flex-row">
           <li className="navItem">
             <a
-              data-testid="about"
-              href="#about"
-              onClick={() => setContactSelected(false)}
+              onClick={() => setContactSelected('about')}
             >
               About me
             </a>
           </li>
           <li className={`navItem ${contactSelected && "navActive"}`}>
-            <a onClick={() => setContactSelected(true)}>Contact</a>
+            <a onClick={() => setContactSelected('contact')}>Contact</a>
           </li>
-          {categories.map((category) => (
+          <li className={`navItem ${contactSelected && "navActive"}`}>
+            <a onClick={() => setContactSelected('portfolio')}>Portfolio</a>
+          </li>
+          <li className={`navItem ${contactSelected && "navActive"}`}>
+            <a onClick={() => setContactSelected('resume')}>Resume</a>
+          </li>
+
+          {/* {categories.map((category) => (
             <li
               className={`navItem ${
                 currentCategory.name === category.name &&
@@ -44,14 +49,14 @@ function Nav(props) {
             >
               <a
                 onClick={() => {
-                  setCurrentCategory(category);
+                  
                   setContactSelected(false);
                 }}
               >
                 {capitalizeFirstLetter(category.name)}
               </a>
             </li>
-          ))}
+          ))} */}
         </ul>
       </nav>
     </header>
