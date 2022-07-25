@@ -4,7 +4,9 @@ function Resume(props) {
   const { currentCategory } = props;
   return (
     <section>
-      <p>Resume text</p>  
+      <a href="https://xdatalinq.github.io/portfolio-layout/assets/resume.txt" target="_blank">
+        <p>Download Resume Here</p>
+      </a>    
     </section>
   );
 }
