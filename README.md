@@ -1,7 +1,46 @@
-# Getting Started with Create React App
+  # React Single-Page Application
+  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+  
+  ## Table of Contents
+  * [Description](#description)
+  * [Screenshot](#screenshot)
+  * [Live](#live)
+  * [Repository](#repository)
+  * [Contact](#contact)
+  * [License](#license)
+  * [Getting Started with Create React App](#getting-started-with-create-react-app)
 
-Live: https://xdatalinq.github.io/react-spa/ <br><br> 
-Repo: https://github.com/xdatalinq/react-spa/ <br><br>
+  ## Description
+  Portfolio layout for future re-factoring to update with relevant work. Built as single-page application (SPA).
+  SPAs interact with the browser by dynamically rewriting the current webpage with new data from the web server,
+  instead of requiring the browser to load entirely new pages.
+
+    Built Using:
+
+    HTML/CSS
+    JavaScript/JSX
+    React
+
+  
+  ## Screenshot
+  ![image](https://user-images.githubusercontent.com/89672040/180816689-d68f5230-9fec-42c1-be7e-464ea78266d4.png)
+  
+  ## Live
+  Live: https://xdatalinq.github.io/react-spa/
+  
+  ## Repository
+  Repo: https://github.com/xdatalinq/photo-port
+  
+  ## Contact
+  I can be reached here: [xdatalinq@gmail.com](xdatalinq@gmail.com)
+  <br></br>
+    
+  ## License
+  This project is licensed under [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)
+  <br><br>
+
+## Getting Started with Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -35,7 +74,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build <br>
+dependency from your project.
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
@@ -70,6 +110,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-### Screenshot
-![image](https://user-images.githubusercontent.com/89672040/180816689-d68f5230-9fec-42c1-be7e-464ea78266d4.png)
